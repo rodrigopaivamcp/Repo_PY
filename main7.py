@@ -5,7 +5,7 @@ mensagens = []
 nome = input("Nome: ")
 
 while True:
-
+    # Limpando terminal
     os.system('cls')
 
     if len(mensagens) > 0:
@@ -18,4 +18,8 @@ while True:
   if texto == "FIM":
     break
 
-   mensagens.append  
+ # Adicionando mensagem na lista
+    mensagens.append({
+        "nome": nome,
+        "texto": texto
+    })
